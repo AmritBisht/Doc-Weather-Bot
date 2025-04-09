@@ -1,0 +1,13 @@
+google-genai
+langchain-google-genai
+langchain
+langgraph
+langsmith
+qdrant-client
+pypdf
+langchain-community
+requests
+streamlit
+tqdm
+python-dotenv
+pytest
