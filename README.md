@@ -1,6 +1,6 @@
 # 📚 AI Pipeline with LangChain, LangGraph & Gemini
 
-A simple multimodal AI assistant that handles both **weather queries** and **document-based questions** using **RAG (Retrieval-Augmented Generation)**.
+A simple AI assistant that handles both **weather queries** and **document-based questions** using **RAG (Retrieval-Augmented Generation)**.
 
 ---
 
