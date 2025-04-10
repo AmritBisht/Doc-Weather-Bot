@@ -7,7 +7,7 @@ A simple AI assistant that handles both **weather queries** and **document-based
 ## ⚙️ Tech Stack
 
 - 🔍 **LangChain**
-- 🧠 **Google Gemini** (`langchain-google-genai`)
+- 🧠 **Google Gemini** 
 - 🌤️ **OpenWeatherMap API**
 - 💬 **Streamlit** chatbot UI
 - 🔁 **LangGraph** for workflow orchestration
