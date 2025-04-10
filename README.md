@@ -9,9 +9,9 @@ A simple AI assistant that handles both **weather queries** and **document-based
 - 🔍 **LangChain**
 - 🧠 **Google Gemini** 
 - 🌤️ **OpenWeatherMap API**
-- 💬 **Streamlit** chatbot UI
-- 🔁 **LangGraph** for workflow orchestration
-- 🧪 **Unittest** for test coverage
+- 💬 **Streamlit** 
+- 🔁 **LangGraph** 
+- 🧪 **Unittest** 
 
 ---
 
