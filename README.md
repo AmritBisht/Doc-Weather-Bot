@@ -4,6 +4,12 @@ A simple AI assistant that handles both **weather queries** and **document-based
 
 ---
 
+## 🌍 Live Demo  
+
+🔗 **Project Working Link:** [Click Here](https://huggingface.co/spaces/AmritSbisht/Doc-Weather-Bot)
+
+---
+
 ## ⚙️ Tech Stack
 
 - 🔍 **LangChain**
