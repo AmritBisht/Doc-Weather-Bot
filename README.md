@@ -134,5 +134,3 @@ python -m unittest discover tests
 ## 👨‍💻 Author
 
 Made with ❤️ by **[Amrit]**
-```
-
