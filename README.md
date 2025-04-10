@@ -9,7 +9,6 @@ A simple AI assistant that handles both **weather queries** and **document-based
 - 🔍 **LangChain**
 - 🧠 **Google Gemini** (`langchain-google-genai`)
 - 🌤️ **OpenWeatherMap API**
-- 📄 **FAISS** for vector-based document search
 - 💬 **Streamlit** chatbot UI
 - 🔁 **LangGraph** for workflow orchestration
 - 🧪 **Unittest** for test coverage
