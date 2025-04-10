@@ -20,4 +20,4 @@ myenv/
 .DS_Store
 Thumbs.db
 
-documents/
+documents/.env
