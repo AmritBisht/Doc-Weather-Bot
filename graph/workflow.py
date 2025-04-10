@@ -33,12 +33,12 @@ class LangGraphWorkflow:
     def route(self, state: WorkflowState) -> WorkflowState:
         """Route the query to the appropriate agent"""
         action = self.router_agent.route_query(state.query)
-        return state.copy(update={"action": action})
+        return state.model_copy(update={"action": action})
     
     def process_weather(self, state: WorkflowState) -> WorkflowState:
         """Process weather-related queries"""
         weather_response = self.weather_agent.get_weather_response(state.query)
-        return state.copy(update={
+        return state.model_copy(update={
             "city": weather_response["city"],
             "weather_data": weather_response["weather_data"],
             "response": weather_response["response"]
@@ -47,7 +47,7 @@ class LangGraphWorkflow:
     def process_document(self, state: WorkflowState) -> WorkflowState:
         """Process document-related queries"""
         rag_response = self.rag_agent.get_rag_response(state.query)
-        return state.copy(update={
+        return state.model_copy(update={
             "context": rag_response["context"],
             "response": rag_response["response"]
         })
@@ -64,7 +64,7 @@ class LangGraphWorkflow:
             "latency": 1.2,  # Example metric
         }
         
-        return state.copy(update={"evaluation": evaluation})
+        return state.model_copy(update={"evaluation": evaluation})
     
     def build_workflow(self) -> StateGraph:
         """Build the LangGraph workflow"""

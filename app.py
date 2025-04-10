@@ -23,7 +23,7 @@ db_api = os.getenv("db_api")
 
 
 def main():
-    st.title("AI Pipeline with LangChain & LangGraph")
+    st.title("DOC Weather Bot")
     
     # Initialize components
     doc_loader = DocumentLoader()

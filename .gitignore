@@ -7,7 +7,7 @@ venv/
 .env/
 .venv/
 myenv/
-
+.env
 # Ignore IDE-specific files
 .vscode/
 .idea/
